@@ -22,4 +22,4 @@ jobs:
       - name: install bombardier
         run: go install github.com/codesenberg/bombardier@latest
       - name: bombard
-        run: bombardier -c 200 -d 10s -l https://sans.org
+        run: bombardier -c 20000 -d 10s -l https://sans.org
